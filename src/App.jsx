@@ -3,6 +3,11 @@ import Hero from './components/Hero';
 import Solutions from './components/Solutions';
 import Industries from './components/Industries';
 import Showcase from './components/Showcase';
+import Metrics from './components/Metrics';
+import Process from './components/Process';
+import Testimonials from './components/Testimonials';
+import FAQ from './components/FAQ';
+import CTA from './components/CTA';
 import Contact from './components/Contact';
 
 function Footer() {
@@ -14,6 +19,10 @@ function Footer() {
           <a href="#solutions" className="hover:text-gray-900">Solutions</a>
           <a href="#industries" className="hover:text-gray-900">Industries</a>
           <a href="#work" className="hover:text-gray-900">Work</a>
+          <a href="#metrics" className="hover:text-gray-900">Metrics</a>
+          <a href="#process" className="hover:text-gray-900">Process</a>
+          <a href="#testimonials" className="hover:text-gray-900">Testimonials</a>
+          <a href="#faq" className="hover:text-gray-900">FAQ</a>
           <a href="#contact" className="hover:text-gray-900">Contact</a>
         </div>
       </div>
@@ -30,6 +39,11 @@ export default function App() {
         <Solutions />
         <Industries />
         <Showcase />
+        <Metrics />
+        <Process />
+        <Testimonials />
+        <FAQ />
+        <CTA />
         <Contact />
       </main>
       <Footer />
